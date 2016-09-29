@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *m_imageView;
+
+@property (weak, nonatomic) IBOutlet UITextField *m_textFild;
+
+@property (weak, nonatomic) IBOutlet UILabel *m_titleLable;
 
 @end
 
